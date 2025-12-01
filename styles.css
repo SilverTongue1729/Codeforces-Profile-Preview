@@ -1,0 +1,79 @@
+#cf-profile-preview {
+  position: fixed;
+  display: none;
+  width: 280px;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 10000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+#cf-profile-preview .user-legendary {
+  color: #F00 !important;
+  font-weight: bold;
+}
+
+#cf-profile-preview .legendary-user-first-letter {
+  color: #000 !important;
+}
+
+#cf-profile-preview .user-red {
+  color: red !important;
+}
+
+#cf-profile-preview .user-orange {
+  color: #FF8C00 !important;
+}
+
+#cf-profile-preview .user-violet {
+  color: #a0a !important;
+}
+
+#cf-profile-preview .user-blue {
+  color: blue !important;
+}
+
+#cf-profile-preview .user-cyan {
+  color: #03A89E !important;
+}
+
+#cf-profile-preview .user-green {
+  color: green !important;
+}
+
+#cf-profile-preview .user-gray {
+  color: gray !important;
+}
+
+#cf-profile-preview .user-4000 {
+  color: black !important;
+  font-weight: bold !important;
+}
+
+#cf-profile-preview h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#cf-profile-preview .rated-user {
+  font-weight: bold;
+}
+
+#cf-profile-preview a {
+  color: #3B5998;
+  text-decoration: none;
+}
+
+#cf-profile-preview a:hover {
+  text-decoration: underline;
+}
+
+#cf-profile-preview .addFriend:hover,
+#cf-profile-preview .removeFriend:hover {
+  opacity: 0.8;
+}
